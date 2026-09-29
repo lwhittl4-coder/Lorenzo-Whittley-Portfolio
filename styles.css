@@ -1,0 +1,17 @@
+/* CSS by Lorenzo Whittley */
+/* Color Palette:
+   - sea blue: ##048ABF
+   - grayish blue: #025373
+   - light blue: #04C4D9
+   - off white: #F2F2F2
+   - dark brown: #401E01 
+*/
+
+/* GLOBAL (base) MOBILE FIRST */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2F2F2;
+    color: #025373;
+    margin: 0;
+    padding: 0;
+}
