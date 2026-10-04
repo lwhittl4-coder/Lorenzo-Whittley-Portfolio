@@ -4,14 +4,142 @@
    - grayish blue: #025373
    - light blue: #04C4D9
    - off white: #F2F2F2
-   - dark brown: #401E01 
+   - reddish orange: #EB7B3C 
 */
 
-/* GLOBAL (base) MOBILE FIRST */
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #F2F2F2;
-    color: #025373;
-    margin: 0;
-    padding: 0;
+/* GLOBAL (BASE) STYLES MOBILE FIRST */
+@media screen and (min-width: 500px) {
+    body {
+        font-family: 'Helvetica', sans-serif;
+        margin: 0;
+        background-color: #F2F2F2;
+        color: #025373;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        background-color: #048ABF;
+        color: #F2F2F2;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 3.5em;
+    }
+
+    header p {
+        font-size: 1.5em;
+        font-style: italic;
+    }
+
+    nav {
+        background-color: #025373;
+        padding: 0.5rem;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav a {
+        color: #F2F2F2;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1em;
+        padding: 0.5rem;
+        display: inline-block;
+        text-transform: uppercase;
+    }
+
+    nav a:hover {
+        border-left: 4px solid #EB7B3C;
+        background-color: #04C4D9;
+        font-style: italic;
+        gap: 2rem;
+    }
+
+
+    main {
+        padding: 1rem;
+    }
+
+    main a {
+        background-color: #025373;
+        color: #F2F2F2;
+        text-decoration: none;
+        padding: 0.5rem;
+        display: inline-block;
+        text-transform: uppercase;
+    }
+
+    main a:hover {
+        background-color: #04c4d9;
+        font-style: italic;
+    }
+
+    section {
+        margin-bottom: 2rem;
+    }
+
+    .card-row section{
+        background-color: #F2F2F2;
+        border-radius: 0.5rem;
+        border: 1px solid #025373;
+        box-shadow: 5px 10px 15px #025373;
+        padding: 1rem;
+    }
+
+    aside {
+        background-color: #F2F2F2;
+        border-radius: 0.5rem;
+        border: 1px solid #025373;
+        box-shadow: 5px 10px 15px #025373;
+        padding: 1rem;
+        margin: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    aside a {
+        background-color: #025373;
+        color: #F2F2F2;
+        text-decoration: none;
+        padding: 0.5rem;
+        display: inline-block;
+        text-transform: uppercase;
+    }
+
+    aside a:hover {
+        background-color: #04c4d9;
+        font-style: italic;
+    }
+
+    footer {
+        background-color: #025373;
+        color: #F2F2F2;
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    /* MEDIA QUERIES FOR TABLETS AND DESKTOPS */
+
+@media screen and (min-width: 800px) {
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .card-row {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .card-row section {
+        width: 50%;
+    }
+}
 }
