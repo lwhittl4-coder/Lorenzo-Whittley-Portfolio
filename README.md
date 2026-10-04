@@ -4,4 +4,4 @@ The Lorenzo Whittley Portfolio is a multi-page webpage meant to showcase the cre
 Pages include index.html, artwork.html, resume.html, webdev.html, and contact.html.
 The site is CSS responsive, mobile first.
 There is no Javascript.
-Website URL:
+Website URL: https://lwhittl4-coder.github.io/Lorenzo-Whittley-Portfolio/
